@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84de3ff8.css",
+    "main.js": "/static/js/main.15e93679.js",
+    "static/js/453.99a359e2.chunk.js": "/static/js/453.99a359e2.chunk.js",
+    "static/media/CAPA.gif": "/static/media/CAPA.a6e57f4a68ae8e56fed6.gif",
+    "static/media/Macbook-Air-teste.sttarlink.com.br.png": "/static/media/Macbook-Air-teste.sttarlink.com.br.f45b7c98c318f0876216.png",
+    "static/media/Macbook-Air-lock.sttarlink.com.br.png": "/static/media/Macbook-Air-lock.sttarlink.com.br.d157819d5a3235294454.png",
+    "static/media/Macbook-Air-cardapio.sttarlink.com.br.png": "/static/media/Macbook-Air-cardapio.sttarlink.com.br.a4f416b2e143271b3bf3.png",
+    "static/media/Macbook-Air-assinaturamaxx.netlify.app.png": "/static/media/Macbook-Air-assinaturamaxx.netlify.app.eb8c54767ba6df96827e.png",
+    "static/media/vanrley.jpeg": "/static/media/vanrley.6bad90a25c369ec68f64.jpeg",
+    "static/media/Vertex-Logos_color.png": "/static/media/Vertex-Logos_color.420c654e8a6fc1af3651.png",
+    "static/media/metodologia-desenvolvimento.png": "/static/media/metodologia-desenvolvimento.2f34cb54c90266c5290d.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "index.html": "/index.html",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.84de3ff8.css.map": "/static/css/main.84de3ff8.css.map",
+    "main.15e93679.js.map": "/static/js/main.15e93679.js.map",
+    "453.99a359e2.chunk.js.map": "/static/js/453.99a359e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84de3ff8.css",
+    "static/js/main.15e93679.js"
+  ]
+}
