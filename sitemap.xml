@@ -1,44 +1,68 @@
-const fs = require('fs');
-
-const projects = [
-  { id: 'atlas-almoxarifado', title: 'Atlas Almoxarifado' },
-  { id: 'sistema-de-cardapio', title: 'Sistema de Cardápio' },
-  { id: 'assinaturas-corporativas', title: 'Assinaturas Corporativas' },
-  { id: 'lockguard', title: 'LockGuard' },
-  { id: 'estudio-de-beleza', title: 'Estúdio de Beleza' },
-];
-
-const baseUrls = [
-  { path: '/', changefreq: 'daily', priority: '1.0' },
-  { path: '/nossas-solucoes', changefreq: 'weekly', priority: '0.8' },
-  { path: '/tecnologias', changefreq: 'weekly', priority: '0.8' },
-  { path: '/quem-somos', changefreq: 'monthly', priority: '0.7' },
-  { path: '/fale-conosco', changefreq: 'monthly', priority: '0.7' },
-  { path: '/politica-de-privacidade', changefreq: 'yearly', priority: '0.5' },
-  { path: '/certificados', changefreq: 'yearly', priority: '0.6' },
-  { path: '/projetos', changefreq: 'weekly', priority: '0.8' },
-];
-
-let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
-
-baseUrls.forEach((url) => {
-  sitemap += `  <url>
-    <loc>https://vertex-systems.vercel.app/#${url.path}</loc>
-    <changefreq>${url.changefreq}</changefreq>
-    <priority>${url.priority}</priority>
-  </url>\n`;
-});
-
-projects.forEach((project) => {
-  sitemap += `  <url>
-    <loc>https://vertex-systems.vercel.app/#/projeto/${project.id}</loc>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/nossas-solucoes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/tecnologias</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/quem-somos</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>\n`;
-});
-
-sitemap += '</urlset>';
-
-fs.writeFileSync('public/sitemap.xml', sitemap);
-console.log('Sitemap gerado com sucesso!');
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/fale-conosco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/politica-de-privacidade</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/certificados</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/projetos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/projeto/atlas-almoxarifado</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/projeto/sistema-de-cardapio</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/projeto/assinaturas-corporativas</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/projeto/lockguard</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/projeto/estudio-de-beleza</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
