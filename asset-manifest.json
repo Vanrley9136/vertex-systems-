@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3cfd4df.css",
-    "main.js": "/static/js/main.1364b289.js",
+    "main.css": "/static/css/main.00db2a6b.css",
+    "main.js": "/static/js/main.a6874dd9.js",
     "static/js/453.0a504c48.chunk.js": "/static/js/453.0a504c48.chunk.js",
+    "static/media/Macbook-Air-studio-daianecardoso.vercel.app-yliosr2uui06a3.webm": "/static/media/Macbook-Air-studio-daianecardoso.vercel.app-yliosr2uui06a3.578a5e1155b1cfe91f63.webm",
     "static/media/PROJETO-SOBRE.png": "/static/media/PROJETO-SOBRE.abad5222e172b63ca6f4.png",
     "static/media/capa.png": "/static/media/capa.c9acb582145ced4ac3e2.png",
     "static/media/Macbook-Air-teste.sttarlink.com.br.png": "/static/media/Macbook-Air-teste.sttarlink.com.br.f45b7c98c318f0876216.png",
@@ -19,7 +20,6 @@
     "static/media/BACKEND.png": "/static/media/BACKEND.1513657d49242d1e4fb9.png",
     "static/media/programmer.png": "/static/media/programmer.f2a09fe763ad0b615b69.png",
     "static/media/ferramentas.png": "/static/media/ferramentas.aa6a35f2ecfbabae45f3.png",
-    "static/media/Vertex-Logos_color.jpg": "/static/media/Vertex-Logos_color.88153b0021a020c2f6ff.jpg",
     "static/media/boogle-bloud.webp": "/static/media/boogle-bloud.072fac06734187160e5d.webp",
     "static/media/lmy_data_academy.webp": "/static/media/lmy_data_academy.766b8609cdc26e76ad48.webp",
     "static/media/qlink.webp": "/static/media/qlink.0a9f095f4bd2039553eb.webp",
@@ -29,14 +29,12 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/close-svgrepo-com.svg": "/static/media/close-svgrepo-com.476825146edd5b991caae38b4d546590.svg",
-    "static/media/menu-svgrepo-com.svg": "/static/media/menu-svgrepo-com.e5f3e2067be27de3ec8ecea710dc6674.svg",
-    "main.b3cfd4df.css.map": "/static/css/main.b3cfd4df.css.map",
-    "main.1364b289.js.map": "/static/js/main.1364b289.js.map",
+    "main.00db2a6b.css.map": "/static/css/main.00db2a6b.css.map",
+    "main.a6874dd9.js.map": "/static/js/main.a6874dd9.js.map",
     "453.0a504c48.chunk.js.map": "/static/js/453.0a504c48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3cfd4df.css",
-    "static/js/main.1364b289.js"
+    "static/css/main.00db2a6b.css",
+    "static/js/main.a6874dd9.js"
   ]
 }
