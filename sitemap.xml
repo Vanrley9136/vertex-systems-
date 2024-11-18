@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página Inicial -->
   <url>
-    <loc>https://vertex-systems.vercel.app/</loc>
+    <loc>https://vertex-systems.vercel.app/#/</loc>
     <changefreq>daily</changefreq>
-    <priority>1</priority>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Nossas Soluções -->
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/nossas-solucoes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tecnologias -->
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/tecnologias</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Quem Somos -->
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/quem-somos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Fale Conosco -->
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/fale-conosco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Política de Privacidade -->
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/politica-de-privacidade</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Certificados -->
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/certificados</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Projetos -->
+  <url>
+    <loc>https://vertex-systems.vercel.app/#/projetos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
